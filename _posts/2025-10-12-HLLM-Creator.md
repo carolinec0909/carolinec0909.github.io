@@ -20,8 +20,6 @@ Existing AI-based solutions often struggle with:
 
 **HLLM-Creator** addresses these challenges by proposing a hierarchical LLM-based framework for personalized creative generation, with a focus on practical application in real-world ad systems.
 
----
-
 ## Design
 
 HLLM-Creator uses a three-part architecture:
@@ -34,8 +32,6 @@ HLLM-Creator uses a three-part architecture:
 
 3. **Creative LLM**  
    Takes the user embedding and ad constraints (original title, selling points) to generate a personalized ad title.
-
----
 
 ## CoT-driven Personalized Title Dataset Construction
 
@@ -53,8 +49,6 @@ This process involves:
 3. **Hallucination-Free Title Filtering**  
    A final filtering step removes any generated titles that contain fabricated information.
 
----
-
 ## Training Objectives
 
 The model is trained with a combination of losses to ensure the generated titles are both personalized and relevant:
@@ -68,8 +62,6 @@ The model is trained with a combination of losses to ensure the generated titles
 - **Reconstruction Loss (recon loss)**  
   A loss that ensures the user embedding contains compressed user interest information.
 
----
-
 ## Inference Workflow for Industrial Applications
 
 To be practical for industrial use, HLLM-Creator uses a multi-step inference process:
@@ -80,8 +72,6 @@ To be practical for industrial use, HLLM-Creator uses a multi-step inference pro
 4. Use an Item-User Predictor to determine the matching score between ads and user groups.  
 5. Generate personalized titles only for user groups with high matching scores.  
 6. Select the top-*k* user clusters for personalized title generation.
-
----
 
 ## Experiments
 
@@ -106,8 +96,6 @@ The model showed significant improvements in:
 
 **Offline Evaluation Metrics**  
 Good-Same-Bad (GSB) preferences were used to evaluate the quality of the generated titles.
-
----
 
 ## Potentials for Ads Personalization
 
