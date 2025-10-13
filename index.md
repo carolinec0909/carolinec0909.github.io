@@ -1,5 +1,3 @@
-# Caroline's ML Journal
-
 Hey, I’m **Caroline**, a machine learning engineer focused on recommender systems.  
 I think a lot about how models connect people to the things they love (and how small tweaks can change what millions see).
 
