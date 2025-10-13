@@ -71,8 +71,6 @@ The model is trained with a combination of losses to ensure the generated titles
 
 To be practical for industrial use, HLLM-Creator uses a multi-step inference process:
 
-To scale to industrial settings, **HLLM-Creator** uses a two-stage inference strategy:
-
 1. **User Embedding Extraction**  
    Use the HLLM (Item LLM + User LLM) pipeline to extract embeddings for a large user base (performed offline).
 
