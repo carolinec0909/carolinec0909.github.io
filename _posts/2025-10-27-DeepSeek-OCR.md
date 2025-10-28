@@ -1,4 +1,7 @@
-# Beyond Text: How Optical Compression Unlocks 10× Larger Contexts for LLMs
+---
+title: "Beyond Text: How Optical Compression Unlocks 10× Larger Contexts for LLMs"
+date: 2025-10-27
+---
 
 ## 1. The Context Window Bottleneck
 
