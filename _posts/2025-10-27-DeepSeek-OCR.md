@@ -16,8 +16,7 @@ But what if we could **scale the context window 10×**—without actually increa
 ---
 
 ## 2. The Breakthrough: Optical Compression via DeepEncoder
-
-![Deep Encoder Architecture](assets/images/2025-10-27-DeepSeek-OCR-images/model-architecture.png)
+![Deep Encoder Architecture]({{ site.baseurl }}/assets/images/2025-10-27-DeepSeek-OCR-images/model-architecture.png)
 
 DeepSeek-OCR (2025) proposes a radical rethink of how we represent input.  
 Instead of processing text tokens directly, it **renders text as an image**, then compresses it into a small number of vision tokens—achieving 10× to 20× effective context extension through compression.
